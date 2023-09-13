@@ -1,0 +1,5 @@
+RewriteEngine on
+
+RewriteRule ^(index)$ $1.php [NC,L]
+
+RewriteRule ^(login|register)$ $1.php [NC,L]

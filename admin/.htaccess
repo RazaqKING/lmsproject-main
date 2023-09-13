@@ -1,0 +1,5 @@
+RewriteEngine on
+
+RewriteRule ^(dashboard|add_course|add_lecturer|profile|logout.inc|register|login)$ $1.php [NC,L]
+
+RewriteRule ^(courses|lecturers|students|editcourse|editlecturer|youtube|youtubecourse)$ $1.php [NC,L]

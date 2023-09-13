@@ -1,0 +1,5 @@
+RewriteEngine on
+
+RewriteRule ^(index|contact|courses)$ $1.php [NC,L]
+
+RewriteRule ^(admin/login|admin/register|admin/forgot_password)$ $1.php [NC,L]
